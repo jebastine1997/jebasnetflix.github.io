@@ -1,0 +1,645 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body
+{
+    background-color: #303030;   
+}
+*
+{
+    font-family: 'Open Sans', sans-serif;
+}
+:root
+{
+    --red:#ff1a1a;
+}
+html::-webkit-scrollbar
+{
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track
+{
+    background: #000;
+}
+
+html::-webkit-scrollbar-thumb
+{
+    background: var(--red)
+}
+.topsec
+{   
+    padding-top: 1rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.726),rgba(29, 28, 28, 0.589)),url(Images/background-img.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    height: auto;
+    max-width: 100%;
+    padding-bottom: 12rem;
+}
+
+.nav
+{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.lang
+{
+    margin-left: auto;
+}
+.sign
+{
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-right: 2.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.banner
+{
+    align-items: center;
+    text-align: center;
+}
+
+.heading
+{
+    margin-top: 10rem;
+}
+
+#h1id1
+{
+    color: rgba(255, 255, 255, 0.911);
+    font-size: 4.6rem;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#h3id1
+{
+    color: rgba(255, 255, 255, 0.911);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 800;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+#p1id1
+{
+    color: rgba(255, 255, 255, 0.911);
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.signup
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input1
+{
+    height: 4.5rem;
+    width: 35rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+.gstart
+{
+    height: 4.5rem;
+    width: 14.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+/* show case section starts here */
+
+.show
+{
+    margin-top: 0.5rem;
+    background-color: #000;
+    display: flex;
+    color: white;
+    padding-bottom: 5rem;
+}
+
+.show1
+{
+    margin-top: 0.5rem;
+    background-color: #000;
+    display: flex;
+    color: white;
+    padding-bottom: 5rem;
+}
+
+
+.lshow
+{
+    margin-left: 13rem;
+    margin-top: 10rem;
+    /* border: 2px solid red; */
+    width: 40rem;
+}
+
+.lshow h1
+{
+    font-size: 3.9rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.lshow p
+{
+    margin-top: 1rem;
+    /* text-align: justify; */
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    font-weight: 800;
+    width: 100%;
+}
+
+.rshow video
+{
+    display: inline-block;   
+    position: absolute;
+    margin-top: 6rem;
+    margin-left: 8.2rem;
+    /* height: 15.6vw; */
+
+}
+
+.rshow img
+{
+    position: relative;
+    margin-left: 3rem;
+    z-index: 10000;
+    overflow: hidden;
+    /* height: 28vw; */
+}
+
+.rshow1
+{
+    margin-left: 5rem;
+}
+
+.lshow1 img
+{
+    margin-left: 4rem;
+}
+
+.rshow1 h1
+{
+    margin-top: 8rem;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.rshow1 p
+{
+    margin-top: 1rem;
+    /* text-align: justify; */
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    font-weight: 800;
+}
+
+
+/* show case section ends here */
+
+
+/* FAQ section starts here */
+.faq
+{
+    margin-top: 0.5rem;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.faq h1
+{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.faqs 
+{
+    margin-left: 25rem;
+    width: 50%;
+    text-align: left;
+}
+
+.qws
+{
+    color: white;
+    border: none;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.ans
+{
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+
+/* FAQ section ends here */
+
+.foot
+{
+    background-color: black;
+    padding-bottom: 0.5rem;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+#copywrt
+{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Media queries starts here */
+@media (max-width:1418px)
+{
+    
+
+    .lshow
+    {
+        margin-top: 7.5rem;
+        margin-left: 5rem;
+    }
+
+    .lshow h1
+    {
+        font-weight: bold;
+        font-size: 3.2rem;
+    }
+
+    .lshow p
+    {
+        /* text-align: justify; */
+        font-size: 1.5rem;        
+        font-weight: 800;
+    }   
+
+    .lshow1 img
+    {
+        margin-left: 1rem;
+        height: 30rem;
+    }
+
+    .rshow1
+    {
+        margin-left: 3rem;
+    }
+
+    .rshow1 h1
+    {
+        font-size: 3rem;
+    }
+
+    .rshow1 p
+    {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        font-weight: 800;
+        /* text-align: justify; */
+    }
+
+    .faqs 
+    {
+        width: 60%;
+        margin-left: 20rem;
+    }
+
+    .faq h1
+    {
+        padding-top: 3rem;
+        padding-bottom: 2.5rem;
+        font-size: 2.5rem;
+    }
+
+    .qws
+    {
+        padding: 0.5rem;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .ans
+    {
+        padding: 0.6rem;
+        text-align: justify;
+        font-size: 1.2rem;
+    }
+
+}
+
+
+@media (max-width:1000px)
+{
+
+    #logo
+    {
+        height: 2.5rem;
+        margin-top: 0.7rem;
+    }
+
+    .lang
+    {
+        margin-left: auto;
+    }
+    #h1id1
+    {
+        font-size: 3.6rem; 
+    }
+
+    #h3id1
+    {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+
+    #p1id1
+    {
+        font-size: 1.3rem;
+        font-weight: 800;
+    }
+    .signup
+    {
+        flex-direction: column;
+    }
+
+    #p1
+    {   
+        display: inline-block;
+        width: 45%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #input1
+    {
+        height: 4.5rem;
+        width: 35rem;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+    }
+
+    .gstart
+    {
+        margin-top: 1rem;
+        height: 4rem;
+        width: 13.5rem;
+        font-size: 1.5rem;
+    }
+
+    .show
+    {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .show1
+    {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .lshow
+    {
+        margin-top: 5.5rem;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .lshow h1
+    {
+        font-weight: bold;
+        font-size: 3.2rem;
+    }
+
+    .lshow p
+    {
+        /* text-align: justify; */
+        font-size: 1.5rem;        
+        font-weight: 800;
+    }   
+
+    .lshow1 img
+    {
+        margin-left: 0;
+        height: 25rem;
+    }
+
+    .rshow1
+    {
+        margin-left: 0;
+    }
+
+    .rshow1 h1
+    {
+        font-size: 2.5rem;
+    }
+
+    .rshow1 p
+    {
+        font-size: 1.3rem;
+        line-height: 2.2rem;
+        /* text-align: justify; */
+    }
+
+    .faqs 
+    {
+        width: 60%;
+        margin-left: 12rem;
+    }
+
+    .faq h1
+    {
+        font-size: 2.2rem;
+    }
+
+    .qws
+    {
+        font-size: 1.5rem;
+    }
+
+    .ans
+    {
+        padding: 0.6rem;
+        font-size: 1rem;
+    }
+
+
+}
+
+@media (max-width:800px)
+{
+    .nav
+    {
+        margin-left: 0.5rem;
+        margin-right: 0;
+    }
+    #logo
+    {
+        margin-top: 0.5rem;
+        height: 1.8rem;
+    }
+
+    .sign
+    {
+        margin-left: 1rem;
+        margin-right: 0.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    #h1id1
+    {
+        font-size: 2.2rem; 
+    }
+
+    #h3id1
+    {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    #p1id1
+    {
+        font-size: 0.9rem;
+        font-weight: 800;
+    }
+
+    #p1
+    {   
+        width: 70%;
+    }
+
+    #input1
+    {
+        height: 3.5rem;
+        width: 21rem;
+        font-size: 1.2rem;
+    }
+
+    .gstart
+    {
+        margin-top: 0.5rem;
+        height: 3rem;
+        width: 11.5rem;
+        font-size: 1.2rem;
+    }
+   
+    .lshow
+    {
+        margin-top: 5.5rem;
+        margin-left: 0;
+    }
+
+    .lshow h1
+    {
+        font-weight: bold;
+        font-size: 2rem;
+        display: inline-block;
+    }
+
+    .lshow p
+    {
+        /* text-align: justify; */
+        font-size: 0.8rem;        
+        font-weight: 800;
+        line-height: normal;
+    }   
+
+    .rshow
+    {
+        margin-right: 2rem;
+    }
+    .rshow video
+    {
+        height: 9.5rem;
+        position: absolute;
+        margin-top: 3rem;
+        margin-left: 5.4rem;
+        display: inline-block;   
+    }
+    
+    .rshow img
+    {
+        height: 15rem;
+        position: relative;
+        margin-left: 3rem;
+        z-index: 10000;
+        overflow: hidden;
+        /* height: 28vw; */
+    }
+    
+    .lshow1 img
+    {
+        height: 17rem;
+    }
+
+    .rshow1 h1
+    {
+        font-size: 1.9rem;
+    }
+
+    .rshow1 p
+    {
+        font-size: 1rem;
+        line-height: normal;
+    }
+
+    .faqs 
+    {
+        width: 100%;
+        margin-left: 0;
+        padding: 0.5rem;
+    }
+
+    .faq h1
+    {
+        font-size: 1.5rem;
+    }
+
+    .qws
+    {
+        font-size: 1rem;
+    }
+
+    .ans
+    {
+        padding: 0.6rem;
+        font-size: 0.8rem;
+    }
+   
+}
